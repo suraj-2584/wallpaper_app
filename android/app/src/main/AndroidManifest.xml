@@ -1,5 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.codeforces">
+    <uses-permission android:name="android.permission.INTERNET"/>
     <!-- Provide required visibility configuration for API level 30 and above -->
     <queries>
     <!-- If your app checks for SMS support -->
@@ -18,7 +19,7 @@
     </intent>
     </queries>
    <application
-        android:label="codeforces"
+        android:label="wallpaper_app"
         android:name="${applicationName}"
         android:usesCleartextTraffic="true"
         android:icon="@mipmap/ic_launcher">

@@ -15,7 +15,7 @@ class PhotoView extends StatelessWidget {
           crossAxisCount: 2,
           crossAxisSpacing: size.width * 0.028,
           mainAxisSpacing: size.height * 0.025,
-          mainAxisExtent: size.height * 0.45,
+          mainAxisExtent: size.height * 0.4,
         ),
         itemCount: photos!.length,
         itemBuilder: (_, index) {
